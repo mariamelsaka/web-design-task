@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>contact-us</title>
+        <link rel="stylesheet" href="app1.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+            integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0="crossorigin="anonymous"
+            />
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png" alt=""></a>
+                <div class="nav-link" id="navLink">
+                   
+                    <i class="fa fa-times" onclick="closemenu()"
+                        aria-hidden="true"></i>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Course</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="contact-us.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <i class="fa fa-bars" onclick="showmenu()" aria-hidden="true"></i>
+            
+
+            </nav>
+
+            
+            <div class="text-box">
+                
+                <a href="" class="hero-button">About Us</a>
+            </div>
+        </section>
+      
+<!--end header-->
+        <section class="middle">
+            <div class="row">
+
+               <div class="text-img">
+                <h1 >Lorem ipsum dolor sit amet consectetur.</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Dolorum eius nobis, voluptas vel earum quasi sapiente
+                    provident iste veniam sunt est esse mollitia ipsa deserunt,
+                    unde commodi numquam? Molestias, ratione!</p>
+                    <p id="explore">Explore Now </p>
+               </div>
+        
+
+            <div class="img">
+                <img src="images/about.jpg" alt="" width="500px" class="image"></div>
+            
+
+        </div>
+
+        </section>
+
+          <section class="action"> 
+            <section class="footer">
+                <h4>About Us</h4>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Blanditiis hic
+                    ea perferendis minima doloremque,<br> aut cum laudantium
+                    impedit repellat
+                    delectus aliquam nihil iure ut.
+                </p>
+                <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i>
+                </div>
+                <p>Made With <i class="fa fa-heart-o"></i> Amit Learning </p>
+            </section>
+        </section> 
+
+        <script>
+            var navLinks = document.getElementById("navLink");
+            function showmenu() {
+                navLinks.style.right = "0";
+            };
+            function closemenu() {
+                navLinks.style.right = "-200px";
+            };
+        </script>
+    </body>
+</html>
